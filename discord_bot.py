@@ -3,7 +3,7 @@ import os
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-from discord import Intents, Client, Message
+from discord import Intents
 import re
 from pytubefix import YouTube
 from pytubefix.cli import on_progress  # Import Pytube-specific exceptions
